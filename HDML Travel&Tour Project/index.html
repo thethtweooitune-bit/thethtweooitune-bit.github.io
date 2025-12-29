@@ -16,7 +16,7 @@
             <a href="#about">About Us</a>
             <a href="#packages">Tour Package</a>
             <a href="#booking">Booking</a>
-            <a href="#contact">Contact Us</a>
+            <a href="#contact us">Contact Us</a>
             
         </nav>
     </header>
@@ -125,7 +125,7 @@ TripGo Travel & Tour သည် မြန်မာနိုင်ငံ၏ လှ
 
  <!-- Start Packages Section -->
 
- <section id="Packages">
+ <section id="packages">
     <h2 align="center">Tour Packages</h2><hr width="10%">
     <table width="110%" align="center" cellpadding="60">
         <tr>
@@ -168,7 +168,7 @@ TripGo Travel & Tour သည် မြန်မာနိုင်ငံ၏ လှ
 
   <!-- Start Booking Section -->
 
-  <section id="Booking">
+  <section id="booking">
     <h2 align="center">Booking</h2>
     <hr width="6%">
     <form action="#" method="get">
@@ -176,17 +176,17 @@ TripGo Travel & Tour သည် မြန်မာနိုင်ငံ၏ လှ
             <legend><b>Customer Information</b></legend><br><br>
             <div>
                 <label for="name">Full Name</label><br>
-                <input type="text" id="name" name="name"><br><br>
+                <input type="text" id="name" name="name" required><br><br>
             </div>    
 
             <div>
                 <label for="email">Email</label><br>
-                <input type="email" id="email" name="email"><br><br>
+                <input type="email" id="email" name="email" required><br><br>
             </div>    
 
             <div>
                 <label for="Phone">Phone Number</label><br>
-                <input type="tel" id="Phone" name="Phone"><br><br>
+                <input type="tel" id="Phone" name="Phone" required><br><br>
             </div>
             
             <div>
@@ -203,14 +203,14 @@ TripGo Travel & Tour သည် မြန်မာနိုင်ငံ၏ လှ
         <legend><b>Trip Details</b></legend>
 
         <label for="Tour Packages"></label><br>
-        <select name="tour Packages" id="tour packages">
+        <select name="tour Packages" id="tour packages" required>
             <option value="bagan package">Bagan Package</option>
             <option value="kalaw package">kalaw Package</option>
             <option value="pyin oo lwin package">Pyin Oo Lwin Package</option>
          </select><br><br>
 
          <label for="travel date">Travel Date</label><br>
-         <input type="date"><br><br>
+         <input type="date" required><br><br>
 
          <label for="no of persons">No Of persons</label><br>
          <input type="number" min="1" max="45"><br><br>
