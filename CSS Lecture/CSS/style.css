@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+h1{
+    /* color: red; keyword/text */
+    color: #a776e7;/* 0 to 9 -> a to f hex code */
+    text-align: center;
+    font-size: 40px;
+}
+/* Border */
+.borderone{
+   /* border: 8px solid red; */
+    border-top: 8px solid yellowgreen;
+}
+
+.bordertwo{
+   /* border-style: solid; */
+    /* all four side */
+   /* border-style: solid dotted; */
+    /* T&B / L&R */
+   /* border-style: solid dotted double; */
+    /* T/ L&R / B */
+    border-style: solid dotted double dashed;
+    /* T/R/B/L */
+
+}
+
+.borderthree{
+    border-width: 30px 20px 10px 5px;
+    border-style: solid;
+}
+
+
+/* Margin */
+.h1{
+   /* margin: 50px 60px; */
+    margin-top: 50px;
+    border: 2px solid black;
+
+}
+
+/* Padding */
+.h2{
+    padding: 50px 100px;
+    border: 2px solid blue;
+}
+
+/* Layout */
+.inline{
+    display: inline-block;
+    border: 2px solid green;
+    width: 300px;
+    
+}
+
+.block{
+     border: 2px solid red;
+     width: 300px;
+     display: inline-block;
+}
